@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300;500&display=swap');
+:root{
+	--fondo-gris: #f3f3f3;
+	--fondo-azul-aqua: #41c1fe;
+	--fondo-footer: #383737;
+	--titulos: #3c3838;
+	--contenido: #888585;
+	}
+.header-area{
+	background-color: var(--titulos);
+}
+
+.titulo{
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	text-transform: uppercase;
+	
+}
+
+.contenido{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: var(--contenido);
+	
+}
+
+.btn-men{
+	background-color: var(--fondo-azul-aqua);
+	font-family:  'Oswald', sans-serif;
+	font-size: 20px;
+	border-radius: 25px 25px;
+	color: #fff;
+}
+
+.btn-women{
+	background-color: #fff;
+	font-family:  'Oswald', sans-serif;
+	font-size: 20px;
+	border-radius: 25px 25px;
+	color: var(--fondo-azul-aqua);
+}
+.botones{
+	padding-top: 30px;
+}
+
+#atajos{
+	padding-top: 50px;
+	padding-bottom: 70px;
+	font-size: 10px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	background-color: var(--fondo-gris);
+}
+
+#cta{
+	background-image: url("../img/bg_action.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 10%;
+}
+.new{
+	background-color: var(--fondo-gris);
+	text-align: center;
+}
+footer{
+	background-color: var(--titulos);
+	padding: 40px;
+	color: #fff;
+	font-size: 14px;
+}
+.subs{
+	background-color:var(--fondo-azul-aqua);
+}
